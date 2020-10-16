@@ -1,0 +1,5 @@
+.idea*
+plots*
+quadratic_trajs*
+results*
+.DS_Store

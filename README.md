@@ -1,7 +1,7 @@
 # Maximum Variation Averaging
-This repository contains the implementation of the so-called Maximum Variation Averaging (MVA) proposed in our paper, [Adaptive Learning Rates with Maximum Variation Averaging
+This repository contains the implementation of the so-called Maximum Variation Averaging (MaxVA) proposed in our paper, [Adaptive Learning Rates with Maximum Variation Averaging
 ](https://arxiv.org/abs/2006.11918).
-MVA aims to stabilize the adaptive step size of [Adam](https://arxiv.org/abs/1412.6980)-like optimizers by adopting an adaptive weighted average of the squared gradients, where the coordinate-wise weights are chosen to maximize the estimated gradient variance. 
+MaxVA aims to stabilize the adaptive step size of [Adam](https://arxiv.org/abs/1412.6980)-like optimizers by adopting an adaptive weighted average of the squared gradients, where the coordinate-wise weights are chosen to maximize the estimated gradient variance. 
 In this repository, we provide its implementation with [PyTorch](https://pytorch.org/) on synthetic datasets, image classification, Neural Machine Translation and Natural Language Understanding tasks, as mentioned in the experiment section of our paper. 
 
 # Usage
